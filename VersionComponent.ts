@@ -1,4 +1,4 @@
-import {Component} from "@pango/components";
+import {Component} from "pango-components";
 import {ProjectOptions} from "pango";
 import * as path from "path";
 import {VersionBuildTarget} from "./VersionBuildTarget";

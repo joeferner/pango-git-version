@@ -1,5 +1,5 @@
 {
-  "name": "@pango/git-version",
+  "name": "pango-git-version",
   "version": "0.0.1",
   "description": "Pango component to output git version information to a .h file",
   "main": "dist/index.js",
@@ -15,7 +15,7 @@
   },
   "peerDependencies": {
     "pango": "0.0.1",
-    "@pango/components": "0.0.1"
+    "pango-components": "0.0.1"
   },
   "dependencies": {
     "@types/ejs": "^2.3.33",

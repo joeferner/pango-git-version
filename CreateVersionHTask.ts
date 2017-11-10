@@ -1,10 +1,9 @@
-import {Task, TaskOptions} from "pango";
-import {ComponentOptions} from "@pango/components";
+import {Task, TaskOptions, ProjectOptions} from "pango";
+import {ComponentOptions} from "pango-components";
 import * as fs from "fs-extra";
 import * as path from "path";
 import {COMPONENT_NAME} from "./VersionComponent";
 import {VersionComponentOptions} from "./VersionComponentOptions";
-import {ProjectOptions} from "../pango/ProjectOptions";
 import * as childProcess from "child-process-promise";
 import * as ejs from "ejs";
 
