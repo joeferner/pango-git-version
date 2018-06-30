@@ -44,7 +44,7 @@ export class CreateVersionHTask extends Task {
     }
 
     private loadTemplate() {
-        return fs.readFile(path.join(__dirname, '../../version.h.ejs'), 'utf8')
+        return fs.readFile(path.join(__dirname, '../version.h.ejs'), 'utf8')
             .then(template => {
                 return ejs.compile(template);
             });
