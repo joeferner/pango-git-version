@@ -1,0 +1,1 @@
+export {GitVersionTarget} from './GitVersionTarget';
