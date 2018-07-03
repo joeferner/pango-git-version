@@ -9,7 +9,7 @@ import * as childProcess from "child-process-promise";
 const spawn = childProcess.spawn;
 
 export class GitVersionTarget implements Target {
-    postRequisites = ['compile'];
+    postRequisites = ['generate-sources'];
 
     async run(projectOptions: ProjectOptions): Promise<void | Targets | string[]> {
         if (!projectOptions.buildDir) {

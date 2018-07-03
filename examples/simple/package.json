@@ -1,13 +1,13 @@
 {
   "name": "pango-example-gcc",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Pango Git Version example project",
   "main": "build.js",
   "author": "Joe Ferner <joe@fernsroth.com>",
   "license": "MIT",
   "dependencies": {
-    "pango": "0.0.1",
-    "pango-gcc": "0.0.1",
-    "pango-git-version": "0.0.1"
+    "pango": "0.0.x",
+    "pango-gcc": "0.0.x",
+    "pango-git-version": "0.0.x"
   }
 }
