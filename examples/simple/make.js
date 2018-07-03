@@ -3,5 +3,10 @@ const path = require('path');
 
 require('pango').run({
     projectDir: __dirname,
-    buildDir: path.join(__dirname, 'build')
+    buildDir: path.join(__dirname, 'build'),
+    components: [
+        'pango',
+        'pango-gcc',
+        'main'
+    ]
 });
