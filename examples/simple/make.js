@@ -7,6 +7,7 @@ require('pango').run({
     components: [
         'pango',
         'pango-gcc',
+        'pango-git-version',
         'main'
     ]
 });

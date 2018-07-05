@@ -1,4 +1,4 @@
-import {ProjectOptions} from "../pango";
+import {ProjectOptions} from "pango";
 
 export interface GitVersionOptions {
     fileName: string;

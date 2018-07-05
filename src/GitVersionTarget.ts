@@ -39,7 +39,7 @@ export class GitVersionTarget implements Target {
     }
 
     private async loadTemplate() {
-        const versionFileName = path.join(__dirname, '../../version.h.ejs');
+        const versionFileName = path.join(__dirname, '../src/version.h.ejs');
         const template = await fs.readFile(versionFileName, 'utf8');
         try {
             return ejs.compile(template);
