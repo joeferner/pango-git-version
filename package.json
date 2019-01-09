@@ -23,6 +23,6 @@
     "ejs": "^2.5.7",
     "fs-extra": "^4.0.2",
     "nested-error-stacks": "^2.0.0",
-    "pango": "0.0.x"
+    "pango": "../pango"
   }
 }
