@@ -1,6 +1,6 @@
 {
   "name": "pango-git-version",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Pango component to output git version information to a .h file",
   "main": "dist/index.js",
   "author": "Joe Ferner <joe@fernsroth.com>",
@@ -23,6 +23,6 @@
     "ejs": "^2.5.7",
     "fs-extra": "^4.0.2",
     "nested-error-stacks": "^2.0.0",
-    "pango": "../pango"
+    "pango": "0.0.x"
   }
 }
